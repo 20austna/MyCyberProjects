@@ -6,5 +6,5 @@ Below is a diagram that gives a rough outline of where this server will be by th
 ![Logical Diagram of the system](./LogicalDiagram.png)
 
 The image depicts two endpoints, a Windows machine with Remote Desktop Protocol(RDP) enabled and a Ubuntu machine with SSH enabled.
-These machines are accessible to the internet for anyone to attempt to connect to, the idea is that these represent real work stations that a company might use. 
-These machines are managed through Fleet which is a way to manage many machines all in one place. 
+These machines are accessible to the internet for anyone to attempt to connect to, the idea is that these represent real workstations that a company might use. 
+Fleet allows us to manage log collection on both endpoints from one central location, making this project scalable to a business environment. 
