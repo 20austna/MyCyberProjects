@@ -1,4 +1,3 @@
-# MyCyberProjects
 ## Introduction 
 Hello! My name is Nathaniel Austen. I am a Computer Scientist currently living in the Cincinnati area(see below for contact info). 
 ## Overview 
