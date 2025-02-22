@@ -1,9 +1,11 @@
 ## Introduction 
 Hello! My name is Nathaniel Austen. I am a Computer Scientist currently living in the Cincinnati area(see below for contact info). 
+
 ## Overview 
-This repository is a place for me to document and share my body of cyber security related work. Some of this will be code, some technical documentation, but much of this will be step-by-step walkthroughs of my cyber projects with commentary and screenshots; much like a blog. 
+This repository is a place for me to document and share my body of cybersecurity-related work. There is code, technical documentation, and blog-like text entries with commentary.
+
 ## Find What You're Interested In
-Contains links to different folders in the project along with brief descriptions of what's inside. 
+[DFIR](https://github.com/20austna/MyCyberProjects/tree/main/DFIR) — Hands-on lab to practice Digital Forensics and Incident Response
 
 ## 📬 How to Contact Me
 
