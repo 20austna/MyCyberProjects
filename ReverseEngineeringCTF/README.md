@@ -7,5 +7,10 @@ I opened [Wireshark](https://www.wireshark.org/), my packet analyzer of choice, 
 
 ## Packet analysis
 When you open Wireshark you are greeted with a view like this: 
+
 ![pcap Screenshot](./pcapScreenshot.png)
-Once I had the packets opened inside Wireshark, I right-clicked on one of the packets to follow the TCP stream. I did this because normally when you 
+
+The main pane contains some data about each packet like what the source and destination IP are, port, what protocol they use, their length, their order, and TCP message type. 
+The bottom pane contains the actual hex values of the packet selected along with their ASCII counterparts. 
+
+While looking at the length 
