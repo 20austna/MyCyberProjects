@@ -10,7 +10,9 @@ When you open Wireshark you are greeted with a view like this:
 
 ![pcap Screenshot](./pcapScreenshot.png)
 
-The main pane contains some data about each packet like what the source and destination IP are, port, what protocol they use, their length, their order, and TCP message type. 
+The main pane contains some data about each packet like what the source and destination IP are, the port, what protocol they use, their length, their order, and the TCP message type. 
 The bottom pane contains the actual hex values of the packet selected along with their ASCII counterparts. 
 
-While looking at the length 
+This information, while helpful, did not give me the info I needed to understand what was going on from a high level. I needed to see all of the ASCII values of the packets, along with their hex counterparts, all at the same time, rather than one by one. To do this I right-clicked on one of the rows in the main pane and hit "follow" > "TCP Stream". 
+
+In this view, there was a lot of information to chew on.(unfinished)
