@@ -15,4 +15,4 @@ The bottom pane contains the actual hex values of the packet selected along with
 
 This information, while helpful, did not give me the info I needed to understand what was going on from a high level. I needed to see all of the ASCII values of the packets, along with their hex counterparts, all at the same time, rather than one by one. To do this I right-clicked on one of the rows in the main pane and hit "follow" > "TCP Stream". 
 
-In this view, there was a lot of information to chew on.(unfinished)
+This view shows the contents of the PSH packets from each service involved in the communication, shown in order. We can also change it so we see which port was sending/receiving. 
