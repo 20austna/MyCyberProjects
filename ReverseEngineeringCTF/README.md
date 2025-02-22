@@ -7,4 +7,5 @@ I opened [Wireshark](https://www.wireshark.org/), my packet analyzer of choice, 
 
 ## Packet analysis
 When you open Wireshark you are greeted with a view like this: 
+![pcap Screenshot](./pcapScreenshot.png)
 Once I had the packets opened inside Wireshark, I right-clicked on one of the packets to follow the TCP stream. I did this because normally when you 
