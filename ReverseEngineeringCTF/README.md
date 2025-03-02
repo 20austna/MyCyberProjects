@@ -20,6 +20,6 @@ Selecting this view shows the whole conversation in chronological order. There a
 
 Notice the difference in size, one contains much more data than the other. Additionally, 1234 -> 39280(the smaller of the two) contained only human readable ascii values, while the other contained a fair bit of nonsense with some code interlaced. 
 
-![image of the ascii in 1234 to 39280](./1234to39280)
+![image of the ascii in 1234 to 39280](./1234to39280.png)
 
-![image of the ascii in 39280 to 1234](./39280to1234)
+![image of the ascii in 39280 to 1234](./39280to1234.png)
