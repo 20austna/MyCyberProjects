@@ -6,8 +6,9 @@ This repository is a place for me to document and share my body of cybersecurity
 
 ## Find What You're Interested In
 [DFIR](https://github.com/20austna/MyCyberProjects/tree/main/DFIR) — Hands-on lab to practice Digital Forensics and Incident Response
+[Vulnerability Assessment](https://github.com/20austna/MyCyberProjects/tree/main/VulnerabilityAssessment) - Vulnerability assessment on the machines in the DFIR lab. 
 
-## 📬 How to Contact Me
+## Contact Me
 
 I'm always happy to connect with fellow cybersecurity professionals, developers, or anyone who shares an interest in security and technology. Here's how you can reach me:
 
