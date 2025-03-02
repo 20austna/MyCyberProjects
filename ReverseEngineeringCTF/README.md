@@ -18,4 +18,8 @@ Selecting this view shows the whole conversation in chronological order. There a
 
 ![The three views](./conversationView.png)
 
-Switching between these two views, we see that port one side only sent a few lines of plain text, while the other sent many lines of what appears to be code. 
+Notice the difference in size, one contains much more data than the other. Additionally, 1234 -> 39280(the smaller of the two) contained only human readable ascii values, while the other contained a fair bit of nonsense with some code interlaced. 
+
+![image of the ascii in 1234 to 39280]()
+
+![image of the ascii in 39280 to 1234]()
