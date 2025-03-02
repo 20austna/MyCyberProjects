@@ -23,3 +23,9 @@ Notice the difference in size, one contains much more data than the other. Addit
 ![image of the ascii in 1234 to 39280](./1234to39280.png)
 
 ![image of the ascii in 39280 to 1234](./39280to1234.png)
+
+From the first screenshot, it seemed to me that this contains a filename(flag.txt) and a key of some sort(Prestidigitation). But it was hard to know what to do with it without understanding what the code on the other side of the conversation did. Just to be sure I tried to enter Prestidigitation as the flag but it didn't work. 
+
+# File conversion and reverse engineering
+
+
