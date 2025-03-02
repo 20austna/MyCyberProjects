@@ -12,12 +12,10 @@ When you open Wireshark you are greeted with a view like this:
 ![pcap Screenshot](./pcapScreenshot.png)
 
 The main pane contains some data about each packet like what the source and destination IP are, the port, what protocol they use, their length, their order, and the TCP message type. 
-The bottom pane contains the actual hex values of the packet selected along with their ASCII counterparts. 
+The bottom pane contains the actual hex values of the packet selected along with their ASCII counterparts. From this, I only knew that this was a conversation from two ports(1234 and 39280) on the same IP address. Clicking through each PSH packet I would find some bits of text that appeared to be code but I wasn't getting a clear picture. I needed to see every PSH packet all together, in order. To do this I right-clicked on one of the entries in the main pane and hit "follow" > "TCP Stream". 
 
-This information, while helpful, did not give me the info I needed to understand what was going on from a high level. I needed to see all of the ASCII values of the packets, along with their hex counterparts, all at the same time, rather than one by one. To do this I right-clicked on one of the rows in the main pane and hit "follow" > "TCP Stream". 
+Selecting this view shows the whole conversation in chronological order. There are also two other views available, one showing p:1234 -> p:39280, and the other showing p:1234 -> p:39280. 
 
-This view shows the contents of the PSH packets from each service involved in the communication, shown in order. There are also two other views available to us, the first is all communications sent from port 1234 to port 39280, and the second is the inverse, from port 39280 to 1234. 
-
-![The three views]()
+![The three views](./conversationView.png)
 
 Switching between these two views, we see that port one side only sent a few lines of plain text, while the other sent many lines of what appears to be code. 
